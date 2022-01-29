@@ -10,7 +10,7 @@ export default function Navbar(props) {
       <div className="container-fluid">
         <Link className="navbar-brand" to="/testForm">
           {props.title}
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -27,7 +27,7 @@ export default function Navbar(props) {
             <li className="nav-item">
               <Link className="nav-link" aria-current="page" to="/testForm">
                 TextForm
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about">
